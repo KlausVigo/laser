@@ -7,13 +7,13 @@
   recent.
 }
 \usage{
-getBtimes(file = NULL, string=NULL)
+getBtimes(file = NULL, string=NULL, tol=1e-5)
 }
 
 \arguments{
   \item{file}{  a file containing a single tree in 'newick' (parenthetic) format }
  \item{string}{  the name of an object containing a 'newick' tree character string}
-
+  \item{tol}{a numeric >= 0, variation below this value are considered non-significant.}
 }
 \details{
   This function requires the package \samp{ape}.  If \samp{ape} has not been 
@@ -31,7 +31,7 @@ getBtimes(file = NULL, string=NULL)
 
 \author{ Dan Rabosky \email{drabosky@umich.edu} }
 
-\seealso{ \code{\link{getBtimes.batch}} }
+\seealso{ \code{\link{getBtimes.batch}}, \code{\link{is.ultrametric}} }
 \examples{
 data(agamids)
 write.table(agamids, file = 'example.tre', quote=FALSE, 
