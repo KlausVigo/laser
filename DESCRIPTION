@@ -7,7 +7,7 @@ Author: Dan Rabosky, Klaus Schliep
 Maintainer: Dan Rabosky <drabosky@umich.edu>
 Depends: R(>= 2.6), ape(>= 4.0), geiger (>= 1.99-3)
 Suggests:
-Description: laser implements maximum likelihood methods based on the
+Description: Laser implements maximum likelihood methods based on the
         birth-death process to test whether diversification rates have
         changed over time and whether rates vary among lineages.
 License: GPL (>= 2)

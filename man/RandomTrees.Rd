@@ -10,7 +10,7 @@
 \usage{data(rtrees50)}
 %\details{}
 \source{
-  Data generated using \emph{Phyl-O-Gen} (\url{http://evolve.zoo.ox.ac.uk/software/PhyloGen/main.html})
+  Data generated using \emph{Phyl-O-Gen}(\url{http://tree.bio.ed.ac.uk/software/phylogen})
 }
 
 \examples{
